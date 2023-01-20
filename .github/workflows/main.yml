@@ -31,7 +31,7 @@ jobs:
       - name: Push Image
         run: |
           docker push ${{ env.IMAGE }}:latest
-    test:
+  test:
       name: Test Docker Image
       runs-on: ubuntu-latest
       needs: build
