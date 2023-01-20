@@ -3,7 +3,7 @@ name: Continuous Integration and Delivery
 on: [push]
 
 env:
-  IMAGE: docker.pkg.github.com/tdd/summarizer
+  IMAGE: docker.pkg.github.com/jacobbaumbach/tdd/summarizer
 
 jobs:
   build:
